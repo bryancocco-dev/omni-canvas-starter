@@ -48,9 +48,9 @@ Each entry is `{ project, projectLabel, type, note, html }`; the CSS that styles
 
 **3 · Not in the system? Then make it up.** If the OMNI system genuinely has no token or component for what the user needs, build that piece from scratch — but still style it entirely with `var(--omni-*)` tokens and match the system's visual language, so even custom UI stays on-brand.
 
-Browse it (humans): https://omni-system-hazel.vercel.app/?path=/docs/welcome--docs  (password `ZARDOZ`). Full conventions: https://omni-system-hazel.vercel.app/CLAUDE.md
+Browse it (humans): https://omni-system-hazel.vercel.app/?path=/docs/welcome--docs  (password-gated). Full conventions: https://omni-system-hazel.vercel.app/CLAUDE.md
 
 The existing canvas shell keeps its own original styling — leave it as-is unless asked. The rules above are for the **new** UI you build on top.
 
 ## Deploy
-Static — deploy to Vercel as-is. Add the ZARDOZ Basic-Auth `middleware.js` if it needs gating (ask Claude).
+Static — deploy to Vercel as-is. Add the standard Basic-Auth `middleware.js` if it needs gating (ask Claude).
